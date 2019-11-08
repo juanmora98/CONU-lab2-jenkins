@@ -1,5 +1,6 @@
 variable "location" {
 description = "The location where resources will be created"
+default = "eastus"
 }
 variable "tags" {
 description = "A map of the tags to use for the resources that are deployed"
@@ -22,4 +23,5 @@ variable "admin_user" {
 }
 variable "admin_password" {
  description = "Default password for admin account"
+ default = "CONU2019@LAB"
 }
